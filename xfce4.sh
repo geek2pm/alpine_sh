@@ -4,3 +4,5 @@ apk add xf86-video
 apk add xf86-input-mouse xf86-input-keyboard
 apk add xfce4-screenshooter
 apk add sudo
+apk add dbus
+dbus-uuidgen > /var/lib/dbus/machine-id
